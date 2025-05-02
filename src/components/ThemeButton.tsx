@@ -6,7 +6,7 @@ export default function ThemeButton() {
 
   return (
     <button
-      className="cursor-pointer hover:rotate-360 transition-all text-font-light dark:text-font-dark absolute bottom-10 right-10"
+      className="cursor-pointer hover:rotate-360 transition-all text-font-light dark:text-font-dark fixed bottom-10 right-10"
       onClick={toggleTheme}
     >
       {theme === "dark" ? <Sun /> : <Moon />}
