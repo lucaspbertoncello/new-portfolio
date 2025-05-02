@@ -27,6 +27,11 @@ export default function Header() {
             <li className="dark:hover:text-white transition-all">
               <Link to={"/contact"}>Contato</Link>
             </li>
+            <li className="dark:hover:text-main-dark transition-all">
+              <a href="../CV.pdf" download>
+                Baixar CV
+              </a>
+            </li>
           </ul>
         </div>
       </Container>
