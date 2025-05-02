@@ -7,13 +7,14 @@
   --font-body: "Archivo", sans-serif;
 
   /* dark theme */
-  --color-main-dark-900: #986dff;
-  --bg-main-dark-900: #111111;
-  --bg-main-dark-800: #151515;
-  --text-main-dark: #9ca3af;
+  --color-main-dark: #986dff;
+  --color-font-dark: #9ca3af;
+  --color-dark-900: #111111;
+  --color-dark-800: #151515;
 
   /* light theme */
-  --color-main-light-900: #f8867a;
-  --bg-main-light-900: #e4f0fa;
-  --bg-main-light-800: #e6eef8;
+  --color-main-light: #f8867a;
+  --color-font-light: #7a8aac;
+  --color-light-900: #e4f0fa;
+  --color-light-800: #e6eef8;
 }
