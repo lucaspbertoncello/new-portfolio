@@ -15,5 +15,5 @@ export default function useToggleTheme() {
       : root.classList.remove("dark");
   }, [theme]);
 
-  return { toggleTheme };
+  return { theme, toggleTheme };
 }
