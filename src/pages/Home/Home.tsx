@@ -2,6 +2,7 @@ import HeroArea from "./components/HeroArea";
 import AboutArea from "./components/AboutArea";
 import ExperienceArea from "./components/ExperienceArea";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutArea />
       <ExperienceArea />
       <Skills />
+      <Footer />
     </main>
   );
 }
