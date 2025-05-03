@@ -8,7 +8,6 @@ export default function useToggleTheme() {
 
   useEffect(() => {
     const root = document.documentElement;
-    console.log(root);
 
     return theme === "dark"
       ? root.classList.add("dark")
