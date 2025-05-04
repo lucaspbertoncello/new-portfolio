@@ -46,11 +46,12 @@ export default function Header() {
             size={32}
           />
         </div>
+
         {isOpen && (
           <ul
             className="
           dark:bg-dark-800 h-[400px] w-full max-w-[800px] 
-          absolute top-[300px] left-1/2 -translate-x-1/2 -translate-y-1/2
+          fixed z-50 top-[300px] left-1/2 -translate-x-1/2 -translate-y-1/2
           flex
           items-center
           justify-around
