@@ -44,7 +44,7 @@ export default function ExperienceArea() {
           </div>
 
           {expInfo.map((exp) => (
-            <div key={exp.name} className="w-full">
+            <div key={exp.name} className="w-full" data-aos="fade-left">
               <div className="flex items-end justify-between">
                 <h1 className="text-2xl dark:text-white">{exp.info.role}</h1>
                 <h1>
