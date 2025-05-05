@@ -2,10 +2,19 @@ import Container from "./Container";
 
 import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
 
   return (
     <header className="dark:bg-dark-900 py-10 relative">
@@ -51,8 +60,9 @@ export default function Header() {
 
         {isOpen && (
           <ul
+            data-aos="fade-left"
             className="
-          dark:bg-dark-800 h-[400px] w-full max-w-[800px] 
+          dark:bg-dark-800 bg-light-800 h-[400px] w-full max-w-[800px] 
           fixed z-50 top-[300px] left-1/2 -translate-x-1/2 -translate-y-1/2
           flex
           items-center
