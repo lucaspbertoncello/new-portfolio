@@ -25,16 +25,16 @@ export default function Header() {
 
           {/* menu desktop */}
           <ul className="dark:text-font-dark hidden lg:flex gap-10 font-medium">
-            <li className="dark:hover:text-white text-font-light hover:text-sec-font-light transition-all">
+            <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/about"}>Sobre</Link>
             </li>
-            <li className="dark:hover:text-white text-font-light hover:text-sec-font-light transition-all">
+            <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/projects"}>Projetos</Link>
             </li>
-            <li className="dark:hover:text-white text-font-light hover:text-sec-font-light transition-all">
+            <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/contact"}>Contato</Link>
             </li>
-            <li className="dark:hover:text-main-dark  text-font-light hover:text-main-light transition-all">
+            <li className="dark:hover:text-main-dark dark:text-font-dark  text-font-light hover:text-main-light transition-all">
               <a href="../public/CV.pdf" download>
                 Baixar CV
               </a>
@@ -61,13 +61,13 @@ export default function Header() {
           flex-col
           "
           >
-            <li className="dark:hover:text-white text-font-light hover:text-sec-font-light transition-all">
+            <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/about"}>Sobre</Link>
             </li>
-            <li className="dark:hover:text-white text-font-light hover:text-sec-font-light transition-all">
+            <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/projects"}>Projetos</Link>
             </li>
-            <li className="dark:hover:text-white text-font-light hover:text-sec-font-light transition-all">
+            <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/contact"}>Contato</Link>
             </li>
             <li className="dark:hover:text-main-dark text-font-light hover:text-main-light transition-all">
