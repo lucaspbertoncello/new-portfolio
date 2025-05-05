@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./Routes/Routes";
 
+import ThemeProvider from "./context/ThemeProvider";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -14,5 +16,9 @@ export default function App() {
     });
   }, []);
 
-  return <RouterProvider router={router} />;
+  return (
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
+  );
 }
