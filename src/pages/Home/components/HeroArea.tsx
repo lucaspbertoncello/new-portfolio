@@ -1,10 +1,18 @@
-import Container from "../../../components/Container";
+import { useContext } from "react";
+import { ThemeContext } from "../../../context/ThemeProvider";
 
 import { Link } from "react-router-dom";
 
+import Container from "../../../components/Container";
+
 import heroImgDark from "../../../assets/images/hero-image-dark.svg";
+import heroImgLight from "../../../assets/images/hero-image-light.svg";
 
 export default function HeroArea() {
+  const { theme } = useContext(ThemeContext);
+
+  console.log(theme);
+
   return (
     <Container>
       <section className="flex justify-center lg:justify-between">
@@ -28,7 +36,10 @@ export default function HeroArea() {
         </div>
 
         <div className="hidden lg:block">
-          <img className="w-[400px]" src={heroImgDark} />
+          <img
+            className="w-[400px]"
+            src={theme === "dark" ? heroImgDark : heroImgLight}
+          />
         </div>
       </section>
     </Container>
