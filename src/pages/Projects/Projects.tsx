@@ -1,6 +1,6 @@
 import Container from "../../components/Container";
 import Title from "../../components/Title";
-import Project from "./components/Project";
+import ProjectCard from "./components/ProjectCard.tsx";
 
 import { projects } from "../../mocks/projects.ts";
 
@@ -14,12 +14,13 @@ export default function Projects() {
           o momento atual da minha carreira como desenvolvedor full-stack
         </p>
 
-        <div className="flex flex-wrap gap-4 items-center justify-between my-10">
+        <div className="flex flex-wrap gap-4 justify-between my-10">
           {projects.map((item) => {
             return (
-              <Project
+              <ProjectCard
                 image={item.image}
                 projectName={item.projectName}
+                projectLink={item.projectLink}
                 githubLink={item.githubLink}
                 techStack={item.techStack}
                 description={item.description}

@@ -1,14 +1,17 @@
-import { Github } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 
-import { IProject } from "../../../types/IProject";
+import { Project } from "../../../types/Project";
 
-export default function Project({
+export default function ProjectCard({
   image,
   projectName,
+  projectLink,
   githubLink,
   techStack,
   description,
-}: IProject) {
+}: Project) {
+  console.log(githubLink, projectLink);
+
   return (
     <div className="mb-10 max-w-[500px] w-full">
       {/* image area */}
@@ -25,8 +28,13 @@ export default function Project({
         <h1 className="dark:text-white font-semibold text-xl">{projectName}</h1>
         <div className="w-full h-[1px] dark:bg-[#383838] bg-[#c9c9c9]"></div>
         {githubLink && (
-          <a href={githubLink}>
+          <a target="_blank" href={githubLink}>
             <Github className="dark:hover:text-main-dark hover:text-main-light" />
+          </a>
+        )}
+        {projectLink && (
+          <a target="_blank" href={projectLink}>
+            <ExternalLink className="dark:hover:text-main-dark hover:text-main-light" />
           </a>
         )}
       </div>
@@ -43,12 +51,7 @@ export default function Project({
       </div>
 
       {/* description */}
-      <p>
-        {description}{" "}
-        <button className="dark:text-main-dark text-main-light cursor-pointer">
-          Ver mais {">"}
-        </button>
-      </p>
+      <p>{description} </p>
     </div>
   );
 }
