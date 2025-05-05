@@ -33,8 +33,8 @@ export default function ExperienceArea() {
                   dark:bg-dark-900 
                   border-l-2 ${
                     selectedExp === experience.name
-                      ? "dark:border-l-main-dark dark:text-main-dark"
-                      : "dark:border-transparent dark:text-white"
+                      ? "dark:border-l-main-dark dark:text-main-dark border-l-main-light text-main-light"
+                      : "border-transparent dark:text-white"
                   }
                   `}
               >
@@ -52,10 +52,12 @@ export default function ExperienceArea() {
                 </h1>
               </div>
 
-              <p className="my-4 dark:text-main-dark font-semibold text-lg">
+              <p className="my-4 dark:text-main-dark text-main-light font-semibold text-lg">
                 {exp.info.fullName}
               </p>
-              <p>{exp.info.description}</p>
+              <p className="dark:text-font-dark text-font-light font-[200]">
+                {exp.info.description}
+              </p>
             </div>
           ))}
         </div>

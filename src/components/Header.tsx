@@ -15,9 +15,11 @@ export default function Header() {
           <div className="dark:text-white uppercase text-2xl font-semibold">
             <Link to={"/"}>
               Lucas
-              <span className="text-main-dark">{" {"}</span>
+              <span className="dark:text-main-dark text-main-light">
+                {" {"}
+              </span>
               Bertoncello
-              <span className="text-main-dark">{"}"}</span>
+              <span className="dark:text-main-dark text-main-light">{"}"}</span>
             </Link>
           </div>
 

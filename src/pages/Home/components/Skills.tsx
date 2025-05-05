@@ -8,8 +8,8 @@ export default function Skills() {
         <Title text="Habilidades" />
 
         <div className="flex justify-between flex-wrap gap-14">
-          <div>
-            <h1 className="text-2xl dark:text-white font-semibold mb-4">
+          <div className="text-font-light">
+            <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Web Design
             </h1>
             <p>UX/UI Design</p>
@@ -17,8 +17,8 @@ export default function Skills() {
             <p>Figma</p>
           </div>
 
-          <div>
-            <h1 className="text-2xl dark:text-white font-semibold mb-4">
+          <div className="text-font-light">
+            <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Front-end
             </h1>
             <p>ReactJS + Vite</p>
@@ -26,8 +26,8 @@ export default function Skills() {
             <p>TypeScript</p>
           </div>
 
-          <div>
-            <h1 className="text-2xl dark:text-white font-semibold mb-4">
+          <div className="text-font-light">
+            <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Back-end
             </h1>
             <p>NodeJS</p>
@@ -36,8 +36,8 @@ export default function Skills() {
             <p>MongoDB</p>
           </div>
 
-          <div>
-            <h1 className="text-2xl dark:text-white font-semibold mb-4">
+          <div className="text-font-light">
+            <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Soft skills
             </h1>
             <p>Comunicação efetiva</p>

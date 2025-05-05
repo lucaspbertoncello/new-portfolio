@@ -10,7 +10,9 @@ export default function Footer() {
         <div className="flex gap-4 justify-between items-center flex-col lg:flex-row">
           <p>
             Copyright © 2025{" "}
-            <span className="dark:text-main-dark">lucasbertoncello.com</span>
+            <span className="dark:text-main-dark text-main-light">
+              lucasbertoncello.com
+            </span>
             {". "}
             Todos os direitos reservados.
           </p>

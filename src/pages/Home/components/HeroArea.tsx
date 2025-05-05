@@ -16,13 +16,13 @@ export default function HeroArea() {
             </span>
           </h1>
 
-          <p className="my-8 text-xl font-light">
+          <p className="my-8 text-xl font-[200] dark:text-font-dark text-font-light">
             Uma mistura de habilidades com o desenvolvimento de interfaces e{" "}
             <br />
             sistemas que seus usuários irão amar.
           </p>
 
-          <button className="dark:bg-main-dark dark:text-white w-[250px] px-2 py-3 rounded-sm cursor-pointer hover:w-[280px] transition-all">
+          <button className="dark:bg-main-dark bg-main-light text-white w-[250px] px-2 py-3 rounded-sm cursor-pointer hover:w-[280px] transition-all">
             <Link to={"/contact"}>Entre em contato</Link>
           </button>
         </div>
