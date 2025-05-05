@@ -8,17 +8,34 @@ export default function About() {
         <Title text="Sobre mim" />
 
         <p className="text-lg leading-[30px]">
-          <span className="dark:text-main-dark text-main-light">Lorem</span>{" "}
-          ipsum dolor sit amet consectetur adipisicing elit. Veritatis ab
-          doloremque vel error ut, unde dolore nobis neque autem nesciunt velit
-          magnam consequuntur repellat dolores nihil, mollitia cupiditate
-          suscipit ipsam. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Veritatis ab doloremque vel error ut, unde dolore nobis neque
-          autem nesciunt velit magnam consequuntur repellat dolores nihil,
-          mollitia cupiditate suscipit ipsam. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Veritatis ab doloremque vel error ut,
-          unde dolore nobis neque autem nesciunt velit magnam consequuntur
-          repellat dolores nihil, mollitia cupiditate suscipit ipsam.
+          Me chamo Lucas Palacio Bertoncello, tenho 21 anos e moro em São José
+          dos Pinhais. Entrei no universo da programação aos 17 anos, começando
+          com{" "}
+          <span className="dark:text-main-dark text-main-light">Python</span>.
+          Apesar de ter sido uma boa porta de entrada, foi ao descobrir o
+          desenvolvimento web que realmente me conectei com a área. Desde então,
+          mergulhei de cabeça no ecossistema{" "}
+          <span className="dark:text-main-dark text-main-light">
+            JavaScript
+          </span>
+          , estudando e praticando diariamente, com foco em tecnologias como
+          <span className="dark:text-main-dark text-main-light">
+            React, React Native, Node e TypeScript
+          </span>
+          .
+          <br /> <br />
+          Sou movido por desafios e apaixonado por criar soluções que realmente
+          tomam forma na tela e impactam o usuário. Valorizo boas práticas de
+          UX/UI, desempenho e código limpo. Como autodidata e estudante de{" "}
+          <span className="dark:text-main-dark text-main-light">
+            Ciência da Computação
+          </span>
+          , venho construindo minha jornada com consistência, projetos práticos
+          e constante evolução.
+          <br /> <br />
+          Estou sempre aberto a oportunidades onde eu possa colaborar, aprender
+          e crescer junto com times que compartilhem dessa mesma energia por
+          tecnologia e inovação.
         </p>
       </Container>
     </main>
