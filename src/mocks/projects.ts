@@ -9,7 +9,7 @@ export const projects = [
     githubLink: "",
     techStack: ["Html", "Css", "JavaScript"],
     description:
-      "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
+      "Landing page desenvolvida com Html, Css e JavaScript. Com foco na melhor experiência para o usuário, dei ênfase no design responsivo e interatividade. Otimizei o SEO para proporcionar o melhor mecanismo de busca possível para a empresa.",
   },
   {
     image: myContacts,
@@ -25,6 +25,6 @@ export const projects = [
       "PostgreSQL",
     ],
     description:
-      "This is a Full Stack project using React on the front-end and Node.js + Express on the back-end. The application allows managing a list of contacts and categories with full Create, Read, Update, and Delete (CRUD) operations.",
+      "Este é um projeto Full Stack utilizando React no front-end e Node.js com Express no back-end. A aplicação permite o gerenciamento de uma lista de contatos e categorias, com operações completas de Criar, Ler, Atualizar e Excluir (CRUD).",
   },
 ];

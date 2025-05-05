@@ -7,7 +7,7 @@ export const experiences = [
       start: "Ago - 2022",
       end: "Ago - 2023",
       description:
-        "Trabalhei como instrutor conteudista em frontend na Digital House, otrabalho consistia em criar conteúdos para as aulas de especialização frontend. Alguns temas dos conteúdos realizadosforam: React, Redux, TypeScript, Testes, GraphQL, Next.js, MUI, React Hook Form e styled-components.",
+        "Atuei na área administrativa, sendo responsável pela gestão de certidões de empresas, cadastro de clientes no sistema e lançamento de notas fiscais. Colaborei com a organização dos processos internos, mantendo as informações atualizadas e garantindo agilidade no atendimento às demandas do escritório.",
     },
   },
   {
@@ -15,10 +15,10 @@ export const experiences = [
     info: {
       fullName: "MoldPar Indústrias",
       role: "Freelancer",
-      start: "Nov - 2024",
-      end: "Dez - 2024",
+      start: "Out - 2024",
+      end: "Nov - 2024",
       description:
-        "Trabalhei como instrutor conteudista em frontend na Digital House, otrabalho consistia em criar conteúdos para as aulas de especialização frontend. Alguns temas dos conteúdos realizadosforam: React, Redux, TypeScript, Testes, GraphQL, Next.js, MUI, React Hook Form e styled-components.",
+        "Desenvolvi uma landing page usando HTML, CSS e JavaScript, com foco em responsividade, interatividade e SEO. Otimizei cada detalhe para garantir alto desempenho e proporcionar uma experiência fluida e intuitiva ao usuário.",
     },
   },
 ];
