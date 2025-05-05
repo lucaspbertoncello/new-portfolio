@@ -7,8 +7,8 @@ export default function Skills() {
       <Container>
         <Title text="Habilidades" />
 
-        <div className="flex justify-between flex-wrap gap-14">
-          <div className="text-font-light">
+        <div className="flex justify-between flex-wrap gap-14 font-[200]">
+          <div className="text-font-light dark:text-font-dark">
             <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Web Design
             </h1>
@@ -17,7 +17,7 @@ export default function Skills() {
             <p>Figma</p>
           </div>
 
-          <div className="text-font-light">
+          <div className="text-font-light dark:text-font-dark">
             <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Front-end
             </h1>
@@ -26,7 +26,7 @@ export default function Skills() {
             <p>TypeScript</p>
           </div>
 
-          <div className="text-font-light">
+          <div className="text-font-light dark:text-font-dark">
             <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Back-end
             </h1>
@@ -36,7 +36,7 @@ export default function Skills() {
             <p>MongoDB</p>
           </div>
 
-          <div className="text-font-light">
+          <div className="text-font-light dark:text-font-dark">
             <h1 className="text-2xl dark:text-white text-sec-font-light font-semibold mb-4">
               Soft skills
             </h1>
