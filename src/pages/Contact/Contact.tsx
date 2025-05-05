@@ -7,7 +7,7 @@ import ContactItem from "./components/ContactItem";
 
 export default function Contact() {
   return (
-    <main className="my-20">
+    <main data-aos="fade-right" className="my-20">
       <Container>
         <Title text="Entre em contato" />
 

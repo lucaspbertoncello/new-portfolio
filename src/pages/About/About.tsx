@@ -3,7 +3,7 @@ import Title from "../../components/Title";
 
 export default function About() {
   return (
-    <main className="my-20">
+    <main data-aos="fade-right" className="my-20">
       <Container>
         <Title text="Sobre mim" />
 

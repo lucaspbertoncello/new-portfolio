@@ -13,7 +13,7 @@ export default function ProjectCard({
   console.log(githubLink, projectLink);
 
   return (
-    <div className="mb-10 max-w-[500px] w-full">
+    <div data-aos="fade-right" className="mb-10 max-w-[500px] w-full">
       {/* image area */}
       <div className="w-[500px] h-[300px] dark:bg-dark-800 bg-light-800 rounded-md flex justify-center items-end cursor-pointer group">
         <img
