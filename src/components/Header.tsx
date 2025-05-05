@@ -2,19 +2,10 @@ import Container from "./Container";
 
 import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
-import { useEffect, useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { useState } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
 
   return (
     <header className="dark:bg-dark-900 py-10 relative">
