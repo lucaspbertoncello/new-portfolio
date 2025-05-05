@@ -10,8 +10,6 @@ export default function ProjectCard({
   techStack,
   description,
 }: Project) {
-  console.log(githubLink, projectLink);
-
   return (
     <div data-aos="fade-right" className="mb-10 max-w-[550px] w-full">
       {/* image area */}
