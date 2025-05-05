@@ -31,7 +31,7 @@ export default function HeroArea() {
           </p>
 
           <button className="dark:bg-main-dark bg-main-light text-white w-[250px] px-2 py-3 rounded-sm cursor-pointer hover:w-[280px] transition-all">
-            <Link to={"/contact"}>Entre em contato</Link>
+            <Link to={`/contact`}>Entre em contato</Link>
           </button>
         </div>
 
