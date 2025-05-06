@@ -13,9 +13,9 @@ export default function ProjectCard({
   return (
     <div data-aos="fade-right" className="mb-10 max-w-[550px] w-full">
       {/* image area */}
-      <div className="w-[550px] h-[300px] dark:bg-dark-800 bg-light-800 rounded-md flex justify-center items-end cursor-pointer group">
+      <div className="max-w-[550px] w-full h-[300px] dark:bg-dark-800 bg-light-800 rounded-md flex justify-center items-end cursor-pointer group">
         <img
-          className="w-[450px] max-h-[300px] rounded-t-md group-hover:scale-110 origin-bottom transition-all"
+          className="max-w-[450px] w-full max-h-[300px] rounded-t-md group-hover:scale-110 origin-bottom transition-all"
           src={image}
           alt=""
         />
