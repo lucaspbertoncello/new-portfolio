@@ -51,15 +51,16 @@ export default function Header() {
 
         {isOpen && (
           <ul
+            onClick={() => setIsOpen(false)}
             data-aos="fade-left"
             className="
-          dark:bg-dark-800 bg-light-800 h-[400px] w-full max-w-[800px] 
-          fixed z-50 top-[300px] left-1/2 -translate-x-1/2 -translate-y-1/2
-          flex
-          items-center
-          justify-around
-          flex-col
-          "
+                      dark:bg-dark-900 bg-light-800 h-[400px] w-full max-w-[800px] 
+                      fixed z-50 top-[300px] left-1/2 -translate-x-1/2 -translate-y-1/2
+                      flex
+                      items-center
+                      justify-around
+                      flex-col
+                      "
           >
             <li className="dark:hover:text-white dark:text-font-dark text-font-light hover:text-sec-font-light transition-all">
               <Link to={"/about"}>Sobre</Link>
